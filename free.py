@@ -16,25 +16,24 @@ from datetime import datetime, timedelta
 
 # --- Configuration ---
 BOT_NAME = "Otpcarrier Bot"
-USERNAME = "somir06"
-PASSWORD = "942006ra"
+USERNAME = "test123"
+PASSWORD = "test123"
 DB_FILE = "sms_database_np.db" 
 
 # --- Telegram Configuration ---
-TELEGRAM_BOT_TOKEN = "8431727184:AAHNDgOGcXfNeRVPX1w6IEAUks82Lu0xyHM"
-DEFAULT_GROUP_CHAT_ID = "-1002229919396" 
-DM_CHAT_ID = "7494475905" 
+TELEGRAM_BOT_TOKEN = "8303159307:AAF-4W3xUHSlV4uvRkflS-lTnR1_5xwW1uw"
+DEFAULT_GROUP_CHAT_ID = "-1002905110441" 
+DM_CHAT_ID = "7562165596" 
 
 # --- New Configuration (Developer Info Removed from Message) ---
-DEVELOPER_NAME = " Mr. Innocent"
-DEVELOPER_TG_ID = "7494475905" 
+DEVELOPER_NAME = "Audrinxz"
+DEVELOPER_TG_ID = "7562165596" 
 
 # --- API Endpoints ---
-BASE_URL = "http://51.89.99.105/NumberPanel/login"
-DOMAIN_URL = "http://51.89.99.105/NumberPanel/login
-"
-LOGIN_PAGE_URL = f"{BASE_URL}/"
-SMS_HTML_PAGE_URL = f"{BASE_URL}/agent/SMSCDRReports" 
+BASE_URL = "http://93.190.143.35/ints"
+DOMAIN_URL = "http://93.190.143.35/ints"
+LOGIN_PAGE_URL = f"{BASE_URL}/Login"
+SMS_HTML_PAGE_URL = f"{BASE_URL}/test/TestSMSCDRStats" 
 
 POTENTIAL_API_URLS = [
     f"{BASE_URL}/agent/res/data_smscdr.php",
